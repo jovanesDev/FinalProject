@@ -1,0 +1,40 @@
+.logo {
+
+    width: 70px;
+    max-width: 100px;
+}
+
+.links {
+    flex-grow: 0 !important;
+}
+
+.active {
+    color:rgb(0, 132, 255) !important;
+    border-bottom:1px solid #0084ff ;
+}
+
+.active:hover {
+    color:rgb(0, 132, 255) !important;
+    border: none;
+}
+
+
+.nav-item:hover {
+    color: #0084ff !important;
+    border-bottom:1px solid #0084ff ;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.section {
+
+    min-height: 100vh;
+    position: relative;
+}
+
+@media screen and (max-width:767px) {
+    .nav-link{
+        text-align: center !important;
+    }
+}
+
