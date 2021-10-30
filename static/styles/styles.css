@@ -1,5 +1,4 @@
 .logo {
-
     width: 70px;
     max-width: 100px;
 }
@@ -39,13 +38,18 @@
 }
 /*--------------esto pertenece a la pagina 'contacto'------------------*/
 
-form {
-          
-    background: rgba(154, 195, 223, 0.87);
+form {    
+    background: rgba(219, 229, 236, 0.883);
+    color:rgb(102, 107, 112);
     max-width: 950px;
     margin: 0 auto;
     border-radius: 5px;
     padding: 20px 30px;
     box-shadow: 1px 5px 10px rgba(0,0,0,0.4);
-    
+}
+
+.boton {
+    background:#576e86dc !important;
+    color: white !important;
+    font-size: 17px !important;
 }
