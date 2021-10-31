@@ -36,6 +36,15 @@
         text-align: center !important;
     }
 }
+
+.footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-bottom: -16px;
+    width: 100%;
+}
+
 /*--------------esto pertenece a la pagina 'contacto'------------------*/
 
 form {    
@@ -52,4 +61,8 @@ form {
     background:#576e86dc !important;
     color: white !important;
     font-size: 17px !important;
+}
+
+.blank {
+    min-height: 100vh;
 }
