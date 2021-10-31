@@ -38,7 +38,16 @@
         text-align: center !important;
     }
 }
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
 
+footer p {
+    margin: 0;
+}
 /*--------------esto pertenece a la pagina 'contacto'------------------*/
 
 form {    
@@ -49,6 +58,14 @@ form {
     border-radius: 5px;
     padding: 20px 30px;
     box-shadow: 1px 5px 10px rgba(0,0,0,0.4);
+}
+
+.boton {
+    background-color: rgb(163, 184, 199) !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: rgb(235, 239, 245) !important;
+    text-transform: uppercase !important;
 }
 
 /*--------------esto pertenece a la pagina 'nosotros'------------------*/
@@ -111,4 +128,8 @@ form {
         font-size: 30px;
 
     }  
+}
+
+.blank {
+    min-height: 100vh;
 }
