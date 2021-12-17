@@ -133,3 +133,8 @@ form {
 .blank {
     min-height: 100vh;
 }
+
+
+.full-section {
+    min-height: 95vh;
+}

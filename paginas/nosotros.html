@@ -13,6 +13,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <nav
@@ -63,8 +64,8 @@
     
  
       <div class="main">
-       <h1>Sobre nuestra compañía</h1> 
-      <p>
+       <h1 data-aos="fade-up" data-aos-duration="2000" >Sobre nuestra compañía</h1> 
+      <p data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
         Somos una agencia de marketing digital especialistas en generar clientes a cualquier
         tipo de negocio. Contamos con 20 años de experiencia desarrollando estrategias de inbound marketing, gestión de redes sociales, campañas de Ads, posicionamiento en los motores de búsqueda, branding y mucho más.
         Contamos con un equipo que combina sus ideas creativas con acciones orientadas a resultados que generen casos de éxito. Impulsamos las estrategias digitales de nuestros clientes de la mano de estrategas de social media, gerentes de proyecto, community managers, analistas de campañas de Ads, redactores, periodistas, diseñadores gráficos, diseñadores web y otros creativos.
@@ -72,12 +73,20 @@
       </div>
     
 
+      <footer class = "footer py-3 fs-4">
+        <p>PenguinsTech ©</p>
+      </footer>
+  
    
     <!-- Pertenece al Bootstrap 5 -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
